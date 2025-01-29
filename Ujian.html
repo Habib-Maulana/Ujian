@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Ujian</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: linear-gradient(to right, #1a202c, #2d3748);
+            color: #e2e8f0;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .bg-custom {
+            background-color: rgba(34, 34, 34, 0.9);
+        }
+        .text-custom {
+            color: #e2e8f0;
+        }
+        .border-custom {
+            border-color: #4A5568;
+        }
+        .table-header {
+            background-color: #27274d;
+            color: #dadada;
+        }
+        .table-cell {
+            background-color: #2D3748;
+            color: #E2E8F0;
+        }
+        .table-cell:hover {
+            background-color: #81E6D9;
+            transition: background-color 0.3s ease;
+            color: #1A202C;
+        }
+        .card {
+            background-color: rgba(34, 34, 34, 0.8);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+        }
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body class="flex justify-center items-center min-h-screen">
+    <div class="w-full max-w-7xl p-6 card rounded-lg">
+        <h1 class="text-4xl font-bold text-center text-custom mb-6">Jadwal Ujian</h1>
+        <div class="overflow-x-auto">
+            <table class="w-full border-collapse border border-custom text-center text-custom">
+                <thead>
+                    <tr class="table-header">
+                        <th class="p-4 border border-custom">Sesi/Hari</th>
+                        <th class="p-4 border border-custom">Jum'at</th>
+                        <th class="p-4 border border-custom">Sabtu</th>
+                        <th class="p-4 border border-custom">Senin</th>
+                        <th class="p-4 border border-custom">Selasa</th>
+                        <th class="p-4 border border-custom">Rabu</th>
+                        <th class="p-4 border border-custom">Kamis</th>
+                        <th class="p-4 border border-custom">Jum'at</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="p-4 border border-custom font-bold table-cell">08:00</td>
+                        <td class="p-4 border border-custom table-cell">Advanced Programming</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">Matematika</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">Mikrokomputer dan Praktikum</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                    </tr>
+                    <tr>
+                        <td class="p-4 border border-custom font-bold table-cell">10:30</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">Internet of Things</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">Sistem Tertanam</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                    </tr>
+                    <tr>
+                        <td class="p-4 border border-custom font-bold table-cell">13:30</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">Organisasi dan Arsitektur Komputer</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">Pendidikan Kewarganegaraan</td>
+                    </tr>
+                    <tr>
+                        <td class="p-4 border border-custom font-bold table-cell">16:00</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">Sensor dan Tranducer</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                        <td class="p-4 border border-custom table-cell">-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
